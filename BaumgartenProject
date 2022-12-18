@@ -1,0 +1,30 @@
+Feature: Medical Application view your health record
+
+Scenario: User Credentials for view your health record
+Given //www.beauregardmedicalctr.com.
+Then verify that there is a 'PATIENTS' with drop down arrow.
+Click rrow on patients
+Verify that you see Patient Portal.
+Click Patient Patient Portal
+Verify that 'View your health record' is visible.
+Click on 'View your health record'.
+Veirfy that User credentials circle is filled
+Verify that User Name and Password & Login boxes are present
+Enter a valid User Name & Password.
+Click Login
+
+
+
+Scenario: Using Mobile Phone for view your health record
+Given //www.beauregardmedicalctr.com.
+Then verify that there is a 'PATIENTS' with drop down arrow.
+Click arrow on patients
+Verify that you see Patient Portal.
+Click Patient Patient Portal
+Verify that 'View your health record' is visible.
+Click on 'View your health record'.
+Verify tat "Using Mobile Phone' circle is filled. 
+Verify that First Name, Last Name and birthday fields are present.
+Enter valid First Name, Last Name and birthday
+Click Submit.
+
